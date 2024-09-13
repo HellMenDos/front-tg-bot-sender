@@ -1,0 +1,3 @@
+import comp from "/Users/kirillpozdnakov/Documents/telega-lib/front-telega-lib/docs/.vuepress/.temp/pages/nodejs.html.vue"
+const data = JSON.parse("{\"path\":\"/nodejs.html\",\"title\":\"Документация\",\"lang\":\"ru-RU\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Импорты\",\"slug\":\"импорты\",\"link\":\"#импорты\",\"children\":[]},{\"level\":2,\"title\":\"Начало работы\",\"slug\":\"начало-работы\",\"link\":\"#начало-работы\",\"children\":[]},{\"level\":2,\"title\":\"Варианты отправки сообщений\",\"slug\":\"варианты-отправки-сообщении\",\"link\":\"#варианты-отправки-сообщении\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"nodejs.md\"}")
+export { comp, data }

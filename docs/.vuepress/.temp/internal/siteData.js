@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"ru-RU\",\"title\":\"TgBotSender\",\"description\":\"Библиотека для отправки сообщений в телеграм в вашего бота\",\"head\":[],\"locales\":{}}")
