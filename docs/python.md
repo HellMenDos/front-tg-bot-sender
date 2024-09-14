@@ -7,6 +7,10 @@ pip install tg-bot-sender
 ```python
 from tg_bot_sender import Data, TelegramSender
 ```
+Структура ответа 
+```json
+{ "amount": 0 } // количество отправленных сообщений
+```
 ## Начало работы
 logs параметр указывает на сохранения логов в json формате
 ```python
