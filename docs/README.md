@@ -1,6 +1,6 @@
 ---
 home: true
-title: Главная
+title: Main
 actions:
   - text: Nodejs
     link: /nodejs.html
@@ -11,10 +11,10 @@ actions:
     type: primary
 
 features:
-  - title: Поддержка Python
-    details: Данная библиотека находится в пакетном менеджере pip.
-  - title: Поддержка Nodejs
-    details: Данная библиотека находится в пакетном менеджере npm.
-
+  - title: Python support
+    details: This library is located in the pip package manager.
+  - title: Node js support
+    details: This library is located in the npm package manager.
 ---
-
+[Npm for Nodejs](https://www.npmjs.com/package/tg-bot-sender)
+[Pip for Python](https://pypi.org/project/tg-bot-sender/)

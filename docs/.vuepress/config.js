@@ -3,9 +3,9 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  lang: 'ru-RU',
+  lang: 'en-EN',
   title: 'TgBotSender',
-  description: 'Библиотека для отправки сообщений в телеграм в вашего бота',
+  description: 'Library for sending messages in telegram to your bot',
 
   theme: defaultTheme({
     navbar: ['/', '/nodejs', '/python'],

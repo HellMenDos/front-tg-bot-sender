@@ -1,23 +1,23 @@
 # Python
-Как установить ?
+How to install ?
 ```pip
 pip install tg-bot-sender
 ```
-## Импорты 
+## Imports 
 ```python
 from tg_bot_sender import Data, TelegramSender
 ```
-Структура ответа 
-```json
-{ "amount": 0 } // количество отправленных сообщений
-```
-## Начало работы
-logs параметр указывает на сохранения логов в json формате
+## Getting started
+The logs parameter indicates that logs are saved in json format
 ```python
 tg = TelegramSender(telegramToken, logs = False)
 ```
-## Варианты отправки сообщений
-#### sendFromIds - отправка пользователям
+Response structure
+```json
+{ "amount": 0 } // number of messages sent
+```
+## Options for sending messages
+#### sendFromIds - sending to users
 ```python
 tg.sendFromIds([...telegramUserIds], Data(
     text = 'Hello',
@@ -28,7 +28,7 @@ tg.sendFromIds([...telegramUserIds], Data(
     }]
 ))
 ```
-#### sendFromId - отправка пользователю
+#### sendFromId - sending to the user
 ```python
 tg.sendFromIds(telegramUserId, Data(
     text = 'Hello',
